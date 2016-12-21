@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">InventarioFisico</string>
+    <string-array name="opciones_array">
+        <item>Seleccione una opcion</item>
+        <item>Consultar todo</item>
+        <item>Borrar PLU</item>
+        <item>Borrar ubicacion</item>
+        <item>Consultar PLU</item>
+        <item>Consultar ubicacion</item>
+        <item>Nuevo producto</item>
+    </string-array>
+    <string-array name="plu_array">
+        <item>PLU</item>
+        <item>PLU + CANT</item>
+        <item>PLU + CANT + GRP</item>
+    </string-array>
+    <string name="title_activity_prueba">prueba</string>
+    <string name="title_activity_procesos">Procesos</string>
+    <string name="title_activity_mostrar_datos">MostrarDatos</string>
+    <string name="title_activity_mostrar_datos_matricula">MostrarDatosMatricula</string>
+    <string name="title_activity_mostrar_romb_ubic">MostrarRombUbic</string>
+    <string name="title_activity_guardar">Guardar</string>
+    <string name="title_activity_bodega">Bodega</string>
+    <string name="title_activity_bodega_rombo">BodegaRombo</string>
+    <string name="title_activity_bodega_mercar">BodegaMercar</string>
+    <string name="title_activity_despacho">Despacho</string>
+    <string name="title_activity_entrega">Entrega</string>
+    <string name="title_activity_mensajeria">Mensajeria</string>
+    <string name="title_activity_example_table_row">ExampleTableRow</string>
+    <string name="title_activity_bodega_mercar2">BodegaMercar2</string>
+    <string name="title_activity_bodega_general">BodegaGeneral</string>
+</resources>

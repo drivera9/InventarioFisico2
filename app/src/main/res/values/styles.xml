@@ -1,0 +1,233 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.ScrollView" parent="proyectoWMS_METRO_Theme">
+
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.CheckBox" parent="proyectoWMS_METRO_Theme.Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="proyectoWMS_METRO_Theme.Layout" parent="proyectoWMS_METRO_Theme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/METRO_black</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Layout.LinearLogin" parent="proyectoWMS_METRO_Theme">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Layout.Relative" parent="proyectoWMS_METRO_Theme.Layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Layout.LinearHorizontal" parent="proyectoWMS_METRO_Theme.Layout.Relative">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Layout.RelativeProcesos" parent="proyectoWMS_METRO_Theme.Layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+
+    <style name="proyectoWMS_METRO_Theme.Button" parent="proyectoWMS_METRO_Theme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginLeft">60sp</item>
+        <item name="android:layout_marginRight">60sp</item>
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+
+
+    <style name="proyectoWMS_METRO_Theme.Button.AceptarLogin" parent="proyectoWMS_METRO_Theme.Button" >
+        <item name="android:background">@color/METRO_info</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Button.CancelarLogin" parent="proyectoWMS_METRO_Theme.Button" >
+        <item name="android:background">@color/METRO_danger</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Button.WizardButton" parent="proyectoWMS_METRO_Theme.Button" >
+
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">15sp</item>
+        <item name="android:layout_marginRight">15sp</item>
+
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.GridView" parent="proyectoWMS_METRO_Theme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/cell_shape</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Button.WizardButton.First" parent="proyectoWMS_METRO_Theme.Button.WizardButton" >
+        <item name="android:background">@drawable/leftall</item>
+    </style>
+    <style name="proyectoWMS_METRO_Theme.Button.WizardButton.Last" parent="proyectoWMS_METRO_Theme.Button.WizardButton" >
+        <item name="android:background">@drawable/right_all</item>
+    </style>
+    <style name="proyectoWMS_METRO_Theme.Button.WizardButton.Previous" parent="proyectoWMS_METRO_Theme.Button.WizardButton" >
+        <item name="android:background">@drawable/arrow_left</item>
+    </style>
+    <style name="proyectoWMS_METRO_Theme.Button.WizardButton.Next" parent="proyectoWMS_METRO_Theme.Button.WizardButton" >
+        <item name="android:background">@drawable/arrow_right</item>
+    </style>
+
+
+
+    <style name="proyectoWMS_METRO_Theme.TextView" parent="proyectoWMS_METRO_Theme.Item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.TextView.Titulo" parent="proyectoWMS_METRO_Theme.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:color">@color/METRO_blue</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.TextView.TextViewGrid" parent="proyectoWMS_METRO_Theme.TextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.TableRow" parent="proyectoWMS_METRO_Theme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.Titulo" parent="proyectoWMS_METRO_Theme.GridView">
+        <item name="android:background">@drawable/cell_shape_titulo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/METRO_blue</item>
+    </style>
+
+
+
+    <style name="proyectoWMS_METRO_Theme.TextView.TextViewLogin" parent="proyectoWMS_METRO_Theme.TextView" >
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.TextView.TextViewRecepcion" parent="proyectoWMS_METRO_Theme.TextView">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:autoText">false</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+
+    <style name="proyectoWMS_METRO_Theme.Item" parent="proyectoWMS_METRO_Theme" >
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+
+
+    <style name="proyectoWMS_METRO_Theme.EditText" parent="proyectoWMS_METRO_Theme.Item" >
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginRight">60sp</item>
+        <item name="android:layout_marginLeft">60sp</item>
+
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.EditText.EditTextLogin" parent="proyectoWMS_METRO_Theme.EditText" >
+        <item name="android:maxLines">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.EditText.EditTextBodega" parent="proyectoWMS_METRO_Theme.EditText" >
+        <item name="android:maxLines">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.EditText.EditTextLoginPass" parent="proyectoWMS_METRO_Theme.EditText">
+        <item name="android:maxLines">1</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.EditText.EditTextRecepcion" parent="proyectoWMS_METRO_Theme.EditText">
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">300</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.ImageView" parent="proyectoWMS_METRO_Theme">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.ImageView.ImageViewOriginal" parent="proyectoWMS_METRO_Theme.ImageView">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_marginBottom">20sp</item>
+        <item name="android:layout_marginTop">40sp</item>
+    </style>
+
+    <style name="proyectoWMS_METRO_Theme.ImageView.ImageRecepcion" parent="proyectoWMS_METRO_Theme.ImageView">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">28dp</item>
+    </style>
+</resources>

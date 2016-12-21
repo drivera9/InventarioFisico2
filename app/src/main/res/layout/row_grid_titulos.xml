@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/METRO_sky"
+   style="@style/proyectoWMS_METRO_Theme.Titulo"
+    android:id="@+id/layout">
+
+    <TextView
+        style="@style/proyectoWMS_METRO_Theme.TextView.TextViewGrid"
+        android:id="@+id/item_text">
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/proyectoWMS_METRO_Theme.GridView"
+    android:id="@+id/layout">
+
+    <TextView
+        style="@style/proyectoWMS_METRO_Theme.TextView.TextViewGrid"
+        android:id="@+id/item_text">
+    </TextView>
+
+</RelativeLayout>
